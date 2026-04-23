@@ -1,0 +1,15 @@
+# Unreal Plugin 编译产物（每个人本地编译，不入库）
+Plug/MooaToonInference/Binaries/
+Plug/MooaToonInference/Intermediate/
+
+# ONNX 训练产物（体积大，通过文档说明获取）
+ONNX/mooatoon_model.pth
+ONNX/onnx/
+
+# Python 缓存
+ONNX/__pycache__/
+ONNX/*.pyc
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
